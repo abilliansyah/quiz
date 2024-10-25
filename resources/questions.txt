@@ -1,0 +1,23 @@
+# Format: pertanyaan|jawaban|petunjuk|penjelasan|tingkat_kesulitan
+# Tingkat kesulitan: 1 (Mudah), 2 (Sedang), 3 (Sulit)
+
+# Pertanyaan Mudah (Level 1)
+Apa ibu kota Indonesia?|Jakarta|Ibu kota di Pulau Jawa|Jakarta adalah ibu kota dan kota terbesar di Indonesia.|1
+Berapa jumlah warna dalam pelangi?|7|Jumlah antara 5 dan 10|Pelangi memiliki tujuh warna: merah, jingga, kuning, hijau, biru, nila, ungu.|1
+Apa simbol kimia untuk air?|H2O|Terdiri dari 2 unsur|Air adalah senyawa kimia dengan rumus H2O.|1
+Berapa jumlah provinsi di Indonesia?|38|Antara 35-40|Indonesia memiliki 38 provinsi per tahun 2023.|1
+Siapa presiden pertama Indonesia?|Soekarno|Proklamator kemerdekaan|Ir. Soekarno adalah presiden pertama yang memimpin Indonesia dari 1945-1967.|1
+
+# Pertanyaan Sedang (Level 2)
+Siapa penemu lampu pijar?|Thomas Edison|Seorang penemu asal Amerika|Thomas Edison menemukan lampu pijar yang praktis pada tahun 1879.|2
+Planet apa yang terdekat dengan matahari?|Merkurius|Bukan Venus atau Bumi|Merkurius adalah planet terdekat dengan Matahari di tata surya.|2
+Apa nama hewan tercepat di darat?|Cheetah|Hidup di Afrika|Cheetah dapat berlari hingga kecepatan 112 km/jam.|2
+Berapa persen air di Bumi yang dapat diminum?|1|Kurang dari 5%|Hanya 1% air di Bumi yang dapat diminum oleh manusia.|2
+Apa nama tulang terkecil dalam tubuh manusia?|Stapes|Berada di telinga|Stapes adalah tulang terkecil yang terletak di telinga tengah.|2
+
+# Pertanyaan Sulit (Level 3)
+Berapa kecepatan cahaya dalam km/detik?|299792|Hampir 300.000|Kecepatan cahaya adalah 299.792 kilometer per detik dalam ruang hampa.|3
+Siapa penemu teori relativitas?|Albert Einstein|Fisikawan abad ke-20|Albert Einstein menemukan teori relativitas pada tahun 1905.|3
+Apa nama unsur kimia dengan simbol Au?|Emas|Logam mulia|Au adalah simbol kimia untuk emas (Aurum dalam bahasa Latin).|3
+Berapa jumlah kromosom manusia?|46|Antara 40-50|Manusia memiliki 46 kromosom dalam sel-sel tubuhnya.|3
+Siapa yang menemukan penicillin?|Alexander Fleming|Penemuan tidak sengaja|Alexander Fleming menemukan penicillin pada tahun 1928.|3
