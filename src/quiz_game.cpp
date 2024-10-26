@@ -53,8 +53,12 @@ void QuizGame::loadQuestions() {
 void QuizGame::loadPlayerStats() {
     ifstream inFile("player_stats.txt");
     if (!inFile) {
-        cerr << "Warning: Tidak dapat membuka file player_stats.txt\n";
-        return;
+        // Buat file baru jika belum ada
+        ofstream createFile("player_stats.txt");
+        if (createFile) {
+            createFile.close();
+        }
+        return; // Lanjutkan dengan stats kosong
     }
 
     string line;

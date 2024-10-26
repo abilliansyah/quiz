@@ -1,15 +1,20 @@
-cmake_minimum_required(VERSION 3.10)
-project(QuizGame)
+cmake_minimum_required(VERSION 3.1.0)
 
-set(CMAKE_CXX_STANDARD 11)
+project(quiz-game)
+
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Tambahkan semua source files
-add_executable(QuizGame 
-    quiz_game.cpp
-    # tambahkan file cpp lainnya jika ada
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC ON)
+
+find_package(Qt5 COMPONENTS Widgets REQUIRED)
+
+add_executable(quiz-game
+    src/main.cpp
+    src/mainwindow.cpp
+    src/quiz_game.cpp
 )
 
-# Jika menggunakan library eksternal
-# find_package(...)
-# target_link_libraries(...)
+target_link_libraries(quiz-game Qt5::Widgets)
